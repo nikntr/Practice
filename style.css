@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    font-family: "SF Pro Display", sans-serif;
+    background-color: #FFFFFF;
+    color: #2F3035;
+
+
+a {
+    color:#2F3035;
+    text-decoration: none;
+}i
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ 
+  
+}
+
+.container {
+  
+}
+
+
+.header {
+ padding-top: 25px;
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-bottom: 0px;    
+}
+
+
+.headerlogo {
+
+}
+    
+
+    
+.header__nav{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    transition: opacity 0.3s;
+    padding-bottom: 20px;
+}
+
+
+
+.header__nav a:hover{
+    opacity: 0.8;
+
+}
+
+.header__nav img:hover{
+    opacity: 0.8;
+}
+
+.header__nav2{
+    font-weight:lighter;
+    background-color: #F0F0F4;
+    height: 53px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header__nav2 a:hover{
+    font-weight: bold;
+}
+
+.header__list{
+   display: flex;
+   gap: 50px;
+ 
+}
+
+}
+
+/* Приветсвенная секция */
+
+.main {
+
+
+.welcome__section {
+    margin-top: 78px;
+    height: 400;
+    width: 1171;
+}
+
+.welcome__section .container{
+   display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 36px;
+    align-items: center;
+}
+
+.banner{
+    max-height: 400px;
+    max-width: 870px;
+}
+
+.product__card {
+width: 265px;
+height:  397px;
+border-color: #C4C4C4;
+border:2px solid #CDCDCD;
+}
+.sale {
+    background-color: #1C62CD;
+    color: #FFFFFF;
+    width: 90px;
+    height: 30px;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product__price {
+    font-family: "Barlow", sans-serif;
+    font-size: 27px;
+    color: #1C62CD;
+    font-weight: bold;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-top: -38px;
+    padding-right: 7px;
+}
+.product__price__old {
+    color: #C4C4C4;
+    font-size: 14px;
+    font-weight:lighter;
+    text-decoration-line: line-through;
+    margin-top: 7px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.product__title {
+    font-weight: bolder;
+    font-size: 14px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.motor__sale {
+    padding: 9px 86px 0px 66px
+}
+
+.time {
+    background-color: #F0F0F4;
+    margin-top: -7px;
+    width: 264px;
+    height: 99px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Поисковая секция */
+
+.find__section {
+margin: 77px ;
+
+}
+
+.container{
+
+}
+
+.find__btn {
+    font-size: 20px;
+    background-color:   #FFFFFF;
+    border-color:#FFFFFF;
+    border: #FFFFFF;
+    
+    margin-left: 93px;
+    height: 47px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    
+    font-family: "SF Pro Display";
+    
+}
+.find__btn:hover{
+    background-color: #F0F0F4;  
+    font-weight: bold;
+}
+.find__btn:active{
+  border-color: #2F3035;
+}
+
+.input__find {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 1230px;
+}
+.inputbox {
+    height: 49px;
+    border-radius: 3px;
+    width: 900px;
+    background-color: #F0F0F4;
+    border: #FFFFFF;
+    box-sizing: border-box;
+    color: #656464;
+}
+.input__btn {
+    margin-left: -7px;
+    width: 145px;
+    height: 50px;
+    background-color: #1C62CD;
+    border-color: #1C62CD;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: #FFFFFF;
+}
+.input__btn:hover{
+    background-color: #12499b;  
+    
+}
+
+}
+
+/* Подвал */
+.footer {
+background-color: #F0F0F4;
+padding: 43px 0px 85px 0px;
+}
+.container{
+
+}
+
+.footer .container {
+    display: flex;
+    justify-content:center;
+    gap: 172px;
+}
+.footer__email {
+
+}
+.footer__title {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "SF Pro Display", sans-serif;
+    color: #2F3035;
+}
+.footer__nav {
+
+}
+.footer__list {
+display: flex;
+gap: 100px;
+}
+.footer__list-title {
+
+}
+.footer__inner-list {
+
+}
+.footer__list-item {
+    color: #2F3035;
+    font-size: 14px;
+}
+.footer__socials {
+
+}
+.icons {
+display: flex;
+gap: 30px;
+}
