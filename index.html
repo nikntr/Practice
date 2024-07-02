@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-    <title>Gidrotsikly Landing</title>
-    <link rel="stylesheet" href="./style.css"
-</head>
-
-<body>
-<header class="header">
+    <meta charset="UTF-8"><header class="header">
     
     <nav class="header__nav">
      
@@ -19,15 +11,15 @@
             <li><a class "header__link" href="#!">Акции</a></li>
             <li><a class "header__link" href="#!">Доставка и оплата</a></li>        
         </ul>
-        <img src="./images/logo.png" alt="Логотип" class="headerlogo">
+        <img src="images/logo.png" alt="Логотип" class="headerlogo">
         <ul class="location">
-            <img src="./images/Местоположение.png" alt="Местоположение">
+            <img src="images/Местоположение.png" alt="Местоположение">
             Москва, ул. Науки 25
         </ul>
         <ul class="right head group">
-            <img src="./images/Избранное.svg" alt="Избранное" class="btn">
-            <img src="./images/Профиль.svg" alt="Личный кабинет" class="btn">
-            <img src="./images/Корзина.svg" alt="Корзина" class="btn">
+            <img src="images/Избранное.svg" alt="Избранное" class="btn">
+            <img src="images/Профиль.svg" alt="Личный кабинет" class="btn">
+            <img src="images/Корзина.svg" alt="Корзина" class="btn">
         </ul>        
     </nav>
     
@@ -45,20 +37,28 @@
     </nav>
 
 </header>
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Gidrotsikly Landing</title>
+    <link rel="stylesheet" href="./style.css"
+</head>
+
+<body>
+
 
 
 <main class="main">
     <section class="welcome__section">
         <div class="container">
             <div class="banner">
-             <img src="/images/banner slider.jpg" alt="">
+             <img src="images/banner slider.jpg" alt="">
             </div>
             
             <div class="product__card">
                 <h3 class="sale">АКЦИЯ</h3>
                 <span class="product__price">190 000 ₽</span>
                 <h4 class="product__price__old">225 000 ₽</h4>
-                <img class="motor__sale" src="/images/sale(мотор акция).png" alt="motor__sale">
+                <img class="motor__sale" src="images/sale(мотор акция).png" alt="motor__sale">
                 <h4 class="product__title">Лодочный мотор <br> Suzuki DF9.9BRS</h4>
                 <h5 class="time">Акция действует до <br> 31.08.2020</h5>
             </div>
@@ -78,6 +78,260 @@
             </div>
         </div>
     </section>
+
+<!-- Категории -->
+    <section class="product">
+        <div class="container__categories">
+            <button class="product__banner">
+                <div class="text__content">
+                    <h2 class="text">
+                        Квадроциклы
+                    </h2>  
+                    <h4 class="small__text">
+                        Подробнее>
+                    </h4>
+                </div>
+                <img class="product__image" src="images/квадроцикл.png" alt="">
+            </button>
+
+            
+            <button class="product__banner">
+                <div class="text__content">
+                    <h2 class="text">
+                        Гидроциклы
+                    </h2>  
+                    <h4 class="small__text">
+                        Подробнее>
+                    </h4>
+                </div>
+                <img class="product__image" src="images/гидроцикл.png" alt="">
+            </button>
+
+            
+            <button class="product__banner">
+                <div class="text__content">
+                    <h2 class="text">
+                        Катера
+                    </h2>  
+                    <h4 class="small__text">
+                        Подробнее>
+                    </h4>
+                </div>
+                <img class="product__image" src="images/катер.png" alt="">
+            </button>
+
+            
+            <button class="product__banner">
+                <div class="text__content">
+                    <h2 class="text">
+                        Снегоходы
+                    </h2>  
+                    <h4 class="small__text">
+                        Подробнее>
+                    </h4>
+                </div>
+                <img class="product__image" src="images/снегоход.png" alt="">
+            </button>
+
+            
+            <button class="product__banner">
+                <div class="text__content">
+                    <h2 class="text">
+                       Вездеходы
+                    </h2>  
+                    <h4 class="small__text">
+                        Подробнее>
+                    </h4>
+                </div>
+                <img class="product__image" src="images/вездеход.png" alt="">
+            </button>
+
+            
+            <button class="product__banner">
+                <div class="text__content">
+                    <h2 class="text">
+                        Двигатели
+                    </h2>  
+                    <h4 class="small__text">
+                        Подробнее>
+                    </h4>
+                </div>
+                <img class="product__image" src="images/двигатель.png" alt="">
+            </button>
+
+            
+        </div>
+    </section>
+
+<!--   Популярные товары  -->
+  <section class="popular">
+    <div class="popular__container">
+        <h1 class="popular__header">
+            Популярные товары
+        </h1>
+        <ul class="popular__list">
+            <li class="popular__list-item">запчасти</li>
+            <li class="popular__list-item">моторы</li>
+            <li class="popular__list-item">шины</li>
+            <li class="popular__list-item">электроника</li>
+            <li class="popular__list-item">инструменты</li>
+            <li class="popular__list-item">аксессуары</li>
+        </ul>
+    </div>
+    </section>
+
+    <!-- карточки популярных товаров -->
+    <section class="card__popular__section">
+      <div class="card__popular__container">
+        <div class="card">
+          <img class="card__favorite" src="images/Избранное.svg" alt="">
+          <div class="card__image__container">
+            <img class="card__image" src="images/рюкзак.png" alt="">
+          </div>
+          <h4 class="card__title">Водонепроницаемый <br> Рюкзак</h4>
+          <span class="card__price">9 800 ₽</span>
+          <div class="cart">
+            <div class="figure">
+             <img class="cart__image" src="images/shopping card.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__favorite" src="images/Избранное.svg" alt="">
+          <div class="card__image__container">
+            <img class="card__image" src="images/спасательный жилет.jpg" alt="">
+          </div>
+          <h4 class="card__title">Спасательный жилет <br> BRP Men's Airflow PFD</h4>
+          <span class="card__price">6 900 ₽</span>
+          <div class="cart">
+            <div class="figure">
+             <img class="cart__image" src="images/shopping card.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__favorite" src="images/Избранное.svg" alt="">
+          <div class="card__image__container">
+            <img class="card__image" src="images/аудио система.jpg" alt="">
+          </div>
+          <h4 class="card__title">BRP Audio-Premium <br> System</h4>
+          <span class="card__price">68 000 ₽</span>
+          <div class="cart">
+            <div class="figure">
+             <img class="cart__image" src="images/shopping card.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__favorite" src="images/Избранное.svg" alt="">
+          <div class="card__image__container">
+            <img class="card__image" src="images/спасательное снаряжение.jpg" alt="">
+          </div>
+          <h4 class="card__title">Спасательное <br> снаряжение
+          </h4>
+          <span class="card__price">3 200 ₽</span>
+          <div class="cart">
+            <div class="figure">
+             <img class="cart__image" src="images/shopping card.png" alt="">
+            </div>
+         </div>
+        </div>
+    </div>
+  </section>
+
+
+<!-- Показать ещё -->
+  <div class="show_more">
+    <div class="show_more__back">
+      <h4 class="more__text"> ПОКАЗАТЬ ЕЩЁ </h4>
+    </div>
+  </div>
+  <div class="sale__banner"> 
+    <img  src="images/sale banner.jpg" alt="">
+  </div>
+
+  <!-- С этим товаром покупают -->
+   
+  <section class="popular">
+    <div class="popular__container">
+        <h1 class="popular__header">
+          С этим товаром покупают 
+        </h1>
+        <ul class="popular__list">
+            <li class="popular__list-item">запчасти</li>
+            <li class="popular__list-item">моторы</li>
+            <li class="popular__list-item">шины</li>
+            <li class="popular__list-item">электроника</li>
+            <li class="popular__list-item">инструменты</li>
+            <li class="popular__list-item">аксессуары</li>
+        </ul>
+    </div>
+    </section>
+
+    <!-- карточки популярных товаров -->
+    <section class="card__popular__section">
+      <div class="card__popular__container">
+        <div class="card">
+          <img class="card__favorite" src="images/Избранное.svg" alt="">
+          <div class="card__image__container">
+            <img class="card__image" src="images/Портативная аудио система.jpg" alt="">
+          </div>
+          <h4 class="card__title">BRP Audio-портативная <br> система</h4>
+          <span class="card__price">9 800 ₽</span>
+          <div class="cart">
+            <div class="figure">
+             <img class="cart__image" src="images/shopping card.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__favorite" src="images/Избранное.svg" alt="">
+          <div class="card__image__container">
+            <img class="card__image" src="images/garmin echomap plus.jpg" alt="">
+          </div>
+          <h4 class="card__title">Garmin Echomap Plus <br> 62cv</h4>
+          <span class="card__price">57 200 ₽</span>
+          <div class="cart">
+            <div class="figure">
+             <img class="cart__image" src="images/shopping card.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__favorite" src="images/Избранное.svg" alt="">
+          <div class="card__image__container">
+            <img class="card__image" src="images/RF key.jpg" alt="">
+          </div>
+          <h4 class="card__title">RF D.E.S.S.TM <br> Key </h4>
+          <span class="card__price">1 300 ₽</span>
+          <div class="cart">
+            <div class="figure">
+             <img class="cart__image" src="images/shopping card.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__favorite" src="images/Избранное.svg" alt="">
+          <div class="card__image__container">
+            <img class="card__image" src="images/мужской костюм.png" alt="">
+          </div>
+          <h4 class="card__title">Мужской костюм <br> 3мм
+          </h4>
+          <span class="card__price">3 200 ₽</span>
+          <div class="cart">
+            <div class="figure">
+             <img class="cart__image" src="images/shopping card.png" alt="">
+            </div>
+         </div>
+        </div>
+    </div>
+  </section>
 </main>
 
 <footer class="footer">
@@ -117,13 +371,15 @@
         <div class="footer__socials">
             <div class="footer__socials">
                 <div class="icons">
-                    <img src="/images/instagram.svg" alt="">
-                    <img src="/images/vk.svg" alt="" >
-                    <img src="/images/facebook.svg" alt="">
-                    <img src="/images/youtube.svg" alt="">
+                    <img src="images/instagram.svg" alt="">
+                    <img src="images/vk.svg" alt="" >
+                    <img src="images/facebook.svg" alt="">
+                    <img src="images/youtube.svg" alt="">
                 </div>
             </div>
         </div>
+
+        
     </div>
 </footer>
 </body>
